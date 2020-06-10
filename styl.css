@@ -1,0 +1,78 @@
+
+p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+strong{
+    font-size:1.25rem;
+}
+.espace{
+    height:2.5rem;
+}
+
+table{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.violet{
+    background-color:#857EA8;
+}
+.orange{
+    background-color:#F7A78E;
+}
+.vert{
+    background-color:#A2DAC9 ;
+}
+.couleur{
+    background-color:#CDEBC8 ;
+}
+.jaune{
+    background-color:#F0F9C1;
+}
+.blue{
+    background-color:#84B8D7;
+}
+.clor{
+    background-color:#FEECB9;
+} 
+.color{
+    background-color:#FECE9F;
+} 
+.cleur{
+    background-color: #E68A94;
+}
+.rose{
+    background-color: #C5678E;
+} 
+@media only screen and ( max-width:2000px) {
+    p {
+         font-size:13px;
+    }
+}
+@media only screen and ( max-width:1500px) {
+    p {
+         font-size: 10px;
+    }
+}
+@media only screen and ( max-width:1000px) {
+    p {
+         font-size: 8px;
+    }
+}
+@media only screen and ( max-width:700px) {
+    p {
+         font-size:6px;
+            
+    }
+
+    strong{
+        font-size:6px;
+    }
+    td{
+        
+    }
+
+}
